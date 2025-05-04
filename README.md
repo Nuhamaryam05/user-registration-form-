@@ -136,8 +136,7 @@
 
     if (!fullname) {
       alert('Please enter your full name.');
-      form.fullname.focus();
-      return;
+      form.fullname.focus();      return;
     }
 
     if (!email || !validateEmail(email)) {
